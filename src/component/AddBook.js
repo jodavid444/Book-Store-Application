@@ -9,11 +9,11 @@ const AddBook = () => {
 
   const dispatch = useDispatch();
 
-  const inputValue = (element) => {
+  const inputValue = (e) => {
     setBook({
       ...book,
-      id: uuidv4(),
-      [element.target.name]: element.target.value,
+      item_id: uuidv4 (),
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -21,7 +21,6 @@ const AddBook = () => {
     <div className="form-container">
       <h3 className="add-book-title">ADD NEW BOOK</h3>
       <form
-        action="/action_page.php"
         onSubmit={(e) => {
           e.preventDefault();
           dispatch(addBook(book));
