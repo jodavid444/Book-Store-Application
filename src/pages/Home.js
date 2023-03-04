@@ -1,26 +1,31 @@
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import AddBook from '../component/AddBook';
 import Book from '../component/Book';
+import { loadBooks } from '../redux/books/books';
 
 const Home = () => {
-  const books = [
-    {
-      id: 0,
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
-    },
-    {
-      id: 1,
-      title: 'Dune',
-      author: 'Frank Herbet',
-    },
-  ];
+  const books = useSelector((state) => state.books);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadBooks());
+  }, [dispatch]);
 
   return (
     <>
-      {books.map((book) => (
-        <Book key={book.id} book={book} />
-      ))}
-      <AddBook />
+      <div className="app-container">
+        {Object.keys(books).map((id) => (
+          <Book
+            key={id}
+            id={id}
+            title={books[id][0].title}
+            author={books[id][0].author}
+            category={books[id][0].category}
+          />
+        ))}
+        <AddBook />
+      </div>
     </>
   );
 };
