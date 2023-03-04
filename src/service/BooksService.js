@@ -1,4 +1,4 @@
-import http from '../request';
+import http from '../http-common';
 
 const getBookApi = () => http.get();
 const postBookApi = (book) => http.post('', book);
