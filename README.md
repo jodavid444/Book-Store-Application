@@ -1,6 +1,5 @@
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Book Store App README Template</b></h3>
@@ -73,7 +72,6 @@
 -Reach to following Github URL:
 
 ```
-https://github.com/FuadNabi/book-store
 
 ```
 
@@ -84,7 +82,7 @@ https://github.com/FuadNabi/book-store
 -Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
 
 ```
-$ git clone https://github.com/FuadNabi/book-store
+$ 
 ```
 
 
