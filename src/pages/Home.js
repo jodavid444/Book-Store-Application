@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       {books.map((book) => (
-        <div className="container" key={book.id}>
+        <div className='container' key={book.id}>
           <Book title={book.title} author={book.author} id={book.id} />
 
         </div>

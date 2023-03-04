@@ -4,10 +4,10 @@ import { Routes, Route } from 'react-router-dom';
 import Navigation from './component/Navigation';
 import Categories from './pages/Categories';
 import Home from './pages/Home';
-import store from './redux/configureStore';
+import Store from './redux/configureStore';
 
 const App = () => (
-  <Provider store={store}>
+  <Provider store={Store}>
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
