@@ -134,7 +134,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/FuadNabi/book-store/issues).
+Feel free to check the [issues page]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,6 +151,6 @@ Give a **Star** if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/FuadNabi/book-store/blob/components/LICENSE) licensed.
+This project is [MIT](https://github.com/jodavid444/book-store/blob/components/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
