@@ -4,7 +4,6 @@ import AddBook from '../component/AddBook';
 import Book from '../component/Book';
 import { loadBooks } from '../redux/books/books';
 
-
 const Home = () => {
   const books = useSelector((state) => state.books);
   const dispatch = useDispatch();
@@ -30,5 +29,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

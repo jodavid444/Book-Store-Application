@@ -12,7 +12,7 @@ const AddBook = () => {
   const inputValue = (e) => {
     setBook({
       ...book,
-      item_id: uuidv4 (),
+      item_id: uuidv4(),
       [e.target.name]: e.target.value,
     });
   };

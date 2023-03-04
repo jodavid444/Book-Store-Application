@@ -1,6 +1,6 @@
 import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
-import booksSlice from './books/books';
 import thunk from 'redux-thunk';
+import booksSlice from './books/books';
 import categoriesReduce from './categories/categories';
 
 const rootReduce = {
