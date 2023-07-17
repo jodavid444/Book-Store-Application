@@ -2,7 +2,7 @@
 
   <br/>
 
-  <h3><b>Book Store App README Template</b></h3>
+  <h3><b>Book Store</b></h3>
 
 </div>
 
@@ -25,73 +25,69 @@
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Book Store CMS <a name="about-project"></a>
 
-# 📖 Book Store App <a name="about-project"></a>
-
-> Book Store - It is a Store App where you can add, remove, edit your books or read them.
+> This is a React Redux single-page application used to create, remove and display books from external API
 
 ## 🛠 Built With <a name="built-with"></a>
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- React
+- Redux
+- External API
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Languages</summary>
   <ul>
-    <li>Html/CSS</li>
-    <li>JavaScript</li>
     <li>React</li>
+    <li>Redux</li>
+    <li>Webpaack</li>
+    <li>Axios</li>
+    <li>Babel</li>
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
 - **You can add your book to this website**
-- **You can see progress of your reading**
+- **You can see the progress of your reading**
 - **You can edit or remove your book**
+- **Navigation to different pages**
+- **Redux toolkit**
+- **Axios library**
+- **Filter option by category**
+- **Post and remove books**
+- **Styling UI**
+- 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ 🚀 Live Demo <a name="live-demo"></a>
+
+ [Live URL Link](https://book-store-ytc4.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-## Clone Git Repository <a name="setup"></a>
-
--Reach to following Github URL:
-
+- Clone the repository to your desired folder
+``` sh
+cd Book Store
 ```
-
+``` sh
+npm i
 ```
-
--Copy the URL.
-
--In Visual Studio Code "Terminal" change the current working directory to the location where you want the cloned directory.
-
--Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
-
+``` sh
+npm start
 ```
-$ 
-```
-
-
 ## Usage <a name="usage"></a>
 
 ```
 npm start
 ```
-
 ## Run tests <a name="run-tests"></a>
 
 To run tests, run the following command:
@@ -99,8 +95,6 @@ To run tests, run the following command:
 ```sh
   npm run test
 ```
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -113,7 +107,7 @@ To run tests, run the following command:
 
 - Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
+- LinkedIn [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,9 +115,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Deploying website]**
+- [ ] **Improve filter option**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,9 +137,6 @@ Feel free to check the [issues page]
 Give a **Star** if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
