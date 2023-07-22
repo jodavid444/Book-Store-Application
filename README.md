@@ -2,7 +2,7 @@
 
   <br/>
 
-  <h3><b>Book Store</b></h3>
+  <h2><b>Book Store CMS</b></h2>
 
 </div>
 
@@ -16,9 +16,7 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Usage](#usage)
-  - [Deployment](#triangular_flag_on_post-deployment)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -70,7 +68,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 - Clone the repository to your desired folder
@@ -79,14 +76,13 @@ cd Book Store
 ```
 ``` sh
 npm i
-```
-``` sh
-npm start
+install dependencies
 ```
 ## Usage <a name="usage"></a>
 
 ```
 npm start
+start the server
 ```
 ## Run tests <a name="run-tests"></a>
 
@@ -96,8 +92,6 @@ To run tests, run the following command:
   npm run test
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -111,16 +105,11 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Improve filter option**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -129,8 +118,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
